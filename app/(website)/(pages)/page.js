@@ -46,7 +46,7 @@ export default async function Home() {
       <LgAdvertisements advertisements={largeAdvertisements} />
       {/* <NewArrivals products={newArrivals} /> */}
       <ProductsGridView title="All Products" products={products} />
-      <CustomerReviews />
+      {/* <CustomerReviews /> */}
       {/* <Brands brands={brands} /> */}
     </>
   );
