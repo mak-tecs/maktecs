@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-import {sendEmail} from "lib/firestore/contactUs/sendemail"
 
 export default function Page() {
 
@@ -15,19 +14,9 @@ export default function Page() {
     const subject = `Message from ${name}`;
     const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
     
-    // window.location.href = `mailto:maktecs.com@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:maktecs.com@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   
-    try {
-      await sendEmail({
-        to: 'maktecs.com@gmail.com',
-        subject: subject,
-        body: body
-      });
-      alert('Email sent successfully!');
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Failed to send email.');
-    }
+    
   
   }
 
