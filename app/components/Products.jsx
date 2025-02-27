@@ -43,7 +43,7 @@ export default function ProductsGridView({
   return (
     <section className="w-full flex justify-center ">
       <div className="flex flex-col gap-5 max-w-[1500px] p-5">
-        {title && (
+        {/* {title && (
           <motion.h1
             className="text-center mb-5 text-4xl uppercase"
             variants={headingVariants}
@@ -53,7 +53,7 @@ export default function ProductsGridView({
           >
             {title}
           </motion.h1>
-        )}
+        )} */}
 
         {showSearchBar && (
           <SearchBox
