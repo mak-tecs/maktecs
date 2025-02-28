@@ -107,6 +107,7 @@ async function processOrder({ checkout }) {
     uid: uid,
     id: checkout?.id,
     paymentMode: "cod",
+    status:"pending",
     timestampCreate: admin.firestore.Timestamp.now(),
   });
 
