@@ -15,7 +15,7 @@ export default function Page() {
         <div className="max-w-xl md:max-w-3xl mx-auto px-4 md:px-0">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">About Us</h1>
           <p className="text-base md:text-lg mb-4">
-            Welcome to Maktech, your one-stop-shop for all things.
+            Welcome to Maktecs, your one-stop-shop for all things.
           </p>
           <h2 className="text-xl md:text-2xl font-semibold mb-2">Our Mission</h2>
           <p className="text-base md:text-lg mb-4">
@@ -35,7 +35,7 @@ export default function Page() {
             providing the best shopping experience.
           </p>
           <p className="text-base md:text-lg mb-4">
-            Thank you for choosing Maktech. We look forward to
+            Thank you for choosing Maktecs. We look forward to
             serving you!
           </p>
         </div>
